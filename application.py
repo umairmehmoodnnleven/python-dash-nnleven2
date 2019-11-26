@@ -17,6 +17,7 @@ import plotly.graph_objs as go
 #from app import app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 colors = {
     'background': '#1e2130',
