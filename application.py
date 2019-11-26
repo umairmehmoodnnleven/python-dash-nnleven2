@@ -95,6 +95,8 @@ def update_graph(selected_product1, selected_product2):
                                    'tickfont': {'color': 'orange'}})}
 
 
+if __name__ == '__main__':
 
+    app.run_server(debug=True)
     
    
